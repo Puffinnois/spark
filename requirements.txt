@@ -1,0 +1,11 @@
+attrs==23.1.0
+awsglue-dev==2021.12.30
+iniconfig==2.0.0
+packaging==23.2
+pluggy==1.3.0
+py==1.11.0
+py4j==0.10.9.7
+pyspark==3.5.3
+pytest==7.1.2
+-e git+https://github.com/hymaia/spark-handson.git@78d7d8f4f8bf56a86de0fe87546c6f9bb55a4547#egg=spark_handson
+tomli==2.0.1
