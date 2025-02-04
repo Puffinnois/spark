@@ -39,8 +39,6 @@ def main():
         sum("price").over(window_last_30_days)
     )
 
-    # Déclencher une action pour forcer l'exécution et mesurer précisément le temps
-    df_with_total_per_day_last_30_days.show()
 
     end_time = time.time()  # Fin du chronomètre
 

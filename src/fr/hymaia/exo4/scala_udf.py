@@ -33,8 +33,6 @@ def main():
     # Application de l'UDF Scala pour ajouter la colonne category_name
     df_with_category_name = df.withColumn("category_name", addCategoryName(df["category"]))
 
-    # Déclencher une action pour mesurer précisément le temps (comme une écriture ou un affichage)
-    df_with_category_name.show()
 
     end_time = time.time()
 
